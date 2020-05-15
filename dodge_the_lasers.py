@@ -34,7 +34,7 @@ Output:
 """
 
 def solution(n):
-    # using beatty sequence, S(x, n) = (n + n') * (n + n' + 1) / 2 - S(y, n') here n' = floor((x - 1) * n)
+    # using beauty sequence, S(x, n) = (n + n') * (n + n' + 1) / 2 - S(y, n') here n' = floor((x - 1) * n)
     # (1/x) + (1/y) = 1
     # here we see x = sqrt(2) therefore y = 2 + sqrt(2)
     # S(sqrt(2), n) = n *n' + n* (n + 1) / 2 - n'* (n' + 1) / 2 - S(y, n')
